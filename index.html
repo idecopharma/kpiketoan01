@@ -66,7 +66,7 @@
                 <input type="date" id="creationDate" class="mt-1 block w-full rounded-md shadow-sm">
             </div>
         </div>
-        <h2 class="text-2xl font-semibold mb-4 text-gray-800">KPI HOÀN THÀNH NHIỆM VỤ GIAO TRONG KỲ (10%)</h2>
+        <h2 class="text-2xl font-semibold mb-4 text-gray-800">KPI HOÀN THÀNH NHIỆM VỤ GIAO TRONG KỲ (25%)</h2>
         <div class="table-container mb-8 rounded-lg border border-gray-200">
             <table id="kpiTable" class="min-w-full">
                 <thead>
@@ -100,36 +100,23 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><b style="color: red;">1 Xuất hóa đơn bán hàng.</b></td>
-                            <td>Đúng thời điểm trong kỳ - đủ - chính xác</td>
+                            <td><b style="color: red;">1. Thực hiện nghiệp vụ chứng từ kế toán hóa đơn - chứng từ liên quan bán.</b></td>
+                            <td> Hoàn thành xuất hóa đơn đúng - đủ theo hơn hàng có khai báo nghiệp vụ trên Misa -ERP hoàn chỉnh </td>
+                            <td style="color:red; font-weight:bold;" class="kpi2-score">15%</td>
+                            <td><input class="kpi2-evaluation w-full border rounded-md p-1 text-center" type="number" value="0"></td>
+                            <td><textarea class="kpi2-report w-full border rounded-md p-1" rows="1">Em tự đánh giá</textarea></td>
+                        </tr>
+                                               <tr>
+                            <td><b style="color: red;">2. Thực hiện các nội dung tổng hợp - phân tích số liệu kế chuyển kinh doanh được giao.</b></td>
+                            <td>Hoàn thành đúng nghiệm vụ khai báo - báo cáo đẩy đủ ( theo đánh giá cấp quản lý)</td>
                             <td style="color:red; font-weight:bold;" class="kpi2-score">10%</td>
                             <td><input class="kpi2-evaluation w-full border rounded-md p-1 text-center" type="number" value="0"></td>
                             <td><textarea class="kpi2-report w-full border rounded-md p-1" rows="1">Em tự đánh giá</textarea></td>
                         </tr>
+                       
                         <tr>
-                            <td>2 Hạch toán bán hàng đúng.</td>
-                            <td>Khai báo đúng định khoản - đổi trả hàng từ khách hàng đúng nghiệp vụ</td>
-                            <td class="kpi2-score">10%</td>
-                            <td><input class="kpi2-evaluation w-full border rounded-md p-1 text-center" type="number" value="0"></td>
-                            <td><textarea class="kpi2-report w-full border rounded-md p-1" rows="1">Em tự đánh giá</textarea></td>
-                        </tr>
-                        <tr>
-                            <td><b style="color: red;">3 Checklist công việc trong kỳ tốt.</b></td>
-                            <td>Đạt từ 5%</td>
-                            <td style="color:red; font-weight:bold;" class="kpi2-score">15%</td>
-                            <td><input class="kpi2-evaluation w-full border rounded-md p-1 text-center" type="number" value="0"></td>
-                            <td><textarea class="kpi2-report w-full border rounded-md p-1" rows="1">Em tự đánh giá</textarea></td>
-                        </tr>
-                        <tr>
-                            <td><b style="color: red;">4. Chất lượng nghiệp vụ.</b></td>
-                            <td>Sai sót hóa đơn - điều chỉnh hóa đơn nhở hơn 1 lỗi/kỳ: Lô - Hạn dùng</td>
-                            <td style="color:red; font-weight:bold;" class="kpi2-score">15%</td>
-                            <td><input class="kpi2-evaluation w-full border rounded-md p-1 text-center" type="number" value="0"></td>
-                            <td><textarea class="kpi2-report w-full border rounded-md p-1" rows="1">Em tự đánh giá</textarea></td>
-                        </tr>
-                        <tr>
-                            <td><b style="color: red;">5. Tính phối hợp với bộ phận Sales - kho vận.</b></td>
-                            <td>Không ách tắc - chậm trễ do lỗi phát sinh</td>
+                            <td><b style="color: red;">3. Tính phối hợp với bộ phận Sales - kho vận.</b></td>
+                            <td> Đảm bảo các hoạt động xử lý lỗi liên quan đến chứng từ bán không bị trậm trễ  </td>
                             <td style="color:red; font-weight:bold;" class="kpi2-score">10%</td>
                             <td><input class="kpi2-evaluation w-full border rounded-md p-1 text-center" type="number" value="0"></td>
                             <td><textarea class="kpi2-report w-full border rounded-md p-1" rows="1">Em tự đánh giá</textarea></td>
@@ -162,15 +149,15 @@
                     <tbody>
                         <tr>
                             <td>1. Hạch toán xuất - nhập các chứng từ phát sinh vào hệ thống Misa-ERP.</td>
-                            <td>Khớp - đúng hạn</td>
+                            <td>Khớp - đúng hạn giao nhiệm vụ và có báo cáo đẩy đủ ( Tính trước kỳ trả lương) </td>
                             <td style="color:red; font-weight:bold;" class="kpi3-score">10%</td>
                             <td><input class="kpi3-evaluation w-full border rounded-md p-1 text-center" type="number" value="0"></td>
                             <td><textarea class="kpi3-report w-full border rounded-md p-1" rows="1">Em tự đánh giá</textarea></td>
                         </tr>
                         <tr>
                             <td>2 Tỉ lệ sai lệch dữ liệu kho Misa -ERP khi kiểm kho có điều chỉnh.</td>
-                            <td>Dưới 3% khi đánh giá kiểm (tính điểm kỳ trước kiểm tra cho kỳ này và lũy kế tính tiếp theo)</td>
-                            <td style="color:red; font-weight:bold;" class="kpi3-score">10%</td>
+                            <td>Dưới 3% khi đánh giá kiểm (Tính từ công tác báo cáo đến cấp quản lý kỳ trước))</td>
+                            <td style="color:red; font-weight:bold;" class="kpi3-score">15%</td>
                             <td><input class="kpi3-evaluation w-full border rounded-md p-1 text-center" type="number" value="0"></td>
                             <td><textarea class="kpi3-report w-full border rounded-md p-1" rows="1">Em tự đánh giá</textarea></td>
                         </tr>
@@ -200,16 +187,10 @@
                         </tr>
                     </thead>
                     <tbody>
+                       
                         <tr>
-                            <td><b style="color:green;">1 Hạch toán - đối chiếu công nợ.</b></td>
-                            <td>Đúng nghiệp vụ - sát với số liệu khai báo - khớp với thông tin trả nợ</td>
-                            <td class="kpi4-score">10%</td>
-                            <td><input class="kpi4-evaluation w-full border rounded-md p-1 text-center" type="number" value="0"></td>
-                            <td><textarea class="kpi4-report w-full border rounded-md p-1" rows="1">Em tự đánh giá</textarea></td>
-                        </tr>
-                        <tr>
-                            <td><b style="color:green;">2 Công nợ quá hạn không thông báo</b></td>
-                            <td>Phát sinh hóa đơn đến hạn thanh toán quá trên 25 có tối đa 1 hóa đơn trong kỳ</td>
+                            <td><b style="color:green;">Quản lý công nợ- phối hợp quản lý công nợ</b></td>
+                            <td>Tỉ lệ nợ quá hạn trên 15 ngày không quá 5% trên tổng dư nợ ( tình trước kỳ trả lương)</td>
                             <td style="color:red; font-weight:bold;" class="kpi4-score">15%</td>
                             <td><input class="kpi4-evaluation w-full border rounded-md p-1 text-center" type="number" value="0"></td>
                             <td><textarea class="kpi4-report w-full border rounded-md p-1" rows="1">Em tự đánh giá</textarea></td>
@@ -931,6 +912,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 </body>
 </html>
+
 
 
 
